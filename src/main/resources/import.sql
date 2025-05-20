@@ -1,0 +1,16 @@
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Alexandre de Oliveira Camargo', '144716996-39',5000.0,'2003-05-20', 2);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Beatriz Ferreira Lima', '123456789-01', 7200.0, '1990-11-15', 1);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Carlos Eduardo Nascimento', '234567891-02', 3800.5, '1985-03-12', 0);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Daniela Moura Rocha', '345678912-03', 6100.0, '1992-07-28', 3);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Eduardo Gomes Farias', '456789123-04', 4500.0, '1988-01-09', 2);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Fernanda Alves Pinto', '567891234-05', 8300.0, '1995-10-22', 0);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Gabriel Martins Souza', '678912345-06', 5100.0, '2000-06-03', 1);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Helena Duarte Silva', '789123456-07', 4700.0, '1993-09-17', 2);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Igor Carvalho Teixeira', '891234567-08', 3900.0, '1989-12-05', 0);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Juliana Barbosa Ramos', '912345678-09', 7000.0, '1991-04-18', 3);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Kaio Vinícius Andrade', '101234567-10', 5600.0, '1987-08-27', 1);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Larissa Monteiro Lopes', '112345678-11', 6200.0, '1994-02-11', 0);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Matheus Ribeiro Cunha', '122345678-12', 4800.0, '1996-05-30', 2);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Natalia Castro Fernandes', '132345678-13', 5300.0, '1999-11-03', 1);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Otávio Leal Correia', '142345678-14', 6000.0, '1986-03-21', 0);
+INSERT INTO tb_clients (name, cpf, income, birth_date, children) VALUES ('Priscila Moraes Tavares', '152345678-15', 7500.0, '1998-12-29', 2);
