@@ -1,4 +1,7 @@
 package com.diogovc.clients.repositories;
 
-public interface ClientRepository {
+import com.diogovc.clients.entities.Client;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ClientRepository extends JpaRepository<Client, Long> {
 }

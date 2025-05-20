@@ -8,6 +8,8 @@ import java.time.LocalDate;
 
 public class ClientDTO {
 
+    private Long id;
+
     @NotBlank(message = "O nome deve ser preenchido")
     private String name;
     private String cpf;
@@ -20,7 +22,8 @@ public class ClientDTO {
     public ClientDTO() {
     }
 
-    public ClientDTO(String name, String cpf, Double income, LocalDate birthday, Integer children) {
+    public ClientDTO(Long id,String name, String cpf, Double income, LocalDate birthday, Integer children) {
+        this.id = id;
         this.name = name;
         this.cpf = cpf;
         this.income = income;
@@ -34,6 +37,10 @@ public class ClientDTO {
         this.income = client.getIncome();
         this.birthday = client.getBirthday();
         this.children = client.getChildren();
+    }
+
+    public Long getId() {
+        return id;
     }
 
     public String getName() {
